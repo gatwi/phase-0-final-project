@@ -1,7 +1,7 @@
 body{
     background-color:rgba(65, 63, 65, 0.933);
     color: #fff;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
 }
 nav {
     display:flex;
@@ -14,7 +14,7 @@ nav a {
     text-transform: uppercase;
     font-size: 16px;
 }
-.intro{
+.intro h1 {
     text-align: center;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
@@ -33,11 +33,28 @@ nav a {
 }
 .profileImage img {
     width: 500px;
-    border-radius: 48%;
+    border-radius: 43%;
 }
 .stats{
     text-align: right;
 }
-.stats .experience {
-    text-align: auto;
+
+
+small {
+    font-family: "Fira Sans",sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+.about p {
+    font-family: 'Playfair Display', serif;
+    line-height: 28px;
+}
+.description, .stats {
+    padding: 40px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    line-height: 32px;
 }
