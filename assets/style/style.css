@@ -1,0 +1,33 @@
+body{
+    background-color:rgba(65, 63, 65, 0.933);
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+.intro{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+}
+.about{
+    display:flex;
+    justify-content: space-between;
+}
+.description, .profileImage, .stats  {
+    flex: 1;
+}
+.profileImage {
+    padding: 40px;
+    border: solid 1px;
+    border-radius: 43%;
+}
+.profileImage img {
+    width: 500px;
+    border-radius: 48%;
+}
+.stats{
+    text-align: right;
+}
