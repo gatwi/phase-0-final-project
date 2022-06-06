@@ -7,6 +7,9 @@ nav {
     display:flex;
     justify-content: space-between;
 }
+.navbarScroll.navbarDark {
+    background-color: black;
+}
 nav a {
     color: #fff;
     text-decoration: none;
